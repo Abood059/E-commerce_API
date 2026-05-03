@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-This document provides detailed technical solutions for four critical errors identified in the online store application. Each solution includes root cause analysis, implementation code, testing procedures, and best practices.
+This document provides detailed technical solutions for four critical errors identified in the E-commerce_API application. Each solution includes root cause analysis, implementation code, testing procedures, and best practices.
 
 ---
 

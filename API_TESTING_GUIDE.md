@@ -1,4 +1,4 @@
-# 🚀 API Testing Guide - Online Store Backend
+# 🚀 API Testing Guide - E-commerce_API Backend
 
 ## Quick Start
 

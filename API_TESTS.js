@@ -1,9 +1,9 @@
 /**
  * ============================================================================
- * COMPREHENSIVE API TEST SUITE - Online Store Backend
+ * COMPREHENSIVE API TEST SUITE - E-commerce_API Backend
  * ============================================================================
  * 
- * This test suite covers all endpoints in the online store application.
+ * This test suite covers all endpoints in the E-commerce_API application.
  * 
  * Requirements:
  * - npm install axios
@@ -224,7 +224,7 @@ async function seedTestData() {
 
 async function runTests() {
   console.log(`\n${colors.blue}${'='.repeat(80)}`);
-  console.log('COMPREHENSIVE API TEST SUITE - Online Store');
+  console.log('COMPREHENSIVE API TEST SUITE - E-commerce_API');
   console.log(`${'='.repeat(80)}${colors.reset}\n`);
 
   let adminToken = null;

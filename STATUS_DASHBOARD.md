@@ -367,7 +367,7 @@
 ├──────────────────────────────────────────────────┤
 │                                                  │
 │  1. Navigate to project:                        │
-│     cd /home/abood/Project/Online_store_project │
+│     cd /home/abood/Project/E-commerce_API │
 │                                                  │
 │  2. Install dependencies:                       │
 │     npm install                                 │

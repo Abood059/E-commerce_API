@@ -1,6 +1,6 @@
 # 📦 Project File Manifest
 
-## 🎉 Online Store Backend - Complete Delivery Package
+## 🎉 E-commerce_API Backend - Complete Delivery Package
 
 **Status:** ✅ COMPLETE & VERIFIED  
 **Date:** April 27, 2024  
@@ -153,7 +153,7 @@ Total Deliverable Content:   3,750+ lines
 
 ### Step 1: Extract/Navigate
 ```bash
-cd /home/abood/Project/Online_store_project
+cd /home/abood/Project/E-commerce_API
 ls -la              # Verify all files present
 ```
 
@@ -297,7 +297,7 @@ API_TESTS.js requires: axios, http-cookie-agent, tough-cookie
 ```
 ╔════════════════════════════════════════════════════╗
 ║                                                    ║
-║     📦 ONLINE STORE BACKEND - DELIVERY PACKAGE    ║
+║     📦 E-commerce_API BACKEND - DELIVERY PACKAGE    ║
 ║                                                    ║
 ║  ✅ 9 Documentation Files (115KB+)                ║
 ║  ✅ 1 Test Suite (46 tests, 82.61% pass rate)    ║
@@ -323,7 +323,7 @@ API_TESTS.js requires: axios, http-cookie-agent, tough-cookie
 
 ## 📋 Sign-Off
 
-**Project Name:** Online Store Backend API  
+**Project Name:** E-commerce_API Backend API  
 **Delivery Date:** April 27, 2024  
 **Version:** 1.0 Final  
 **Status:** ✅ COMPLETE  

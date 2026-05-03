@@ -1,6 +1,6 @@
 # Backend Refactoring Summary
 
-This document details the technical improvements made to the Online Store project for enhanced stability and developer experience.
+This document details the technical improvements made to the E-commerce_API project for enhanced stability and developer experience.
 
 ## 1. Optional Redis Architecture with Graceful Fallback
 

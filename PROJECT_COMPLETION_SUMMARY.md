@@ -183,7 +183,7 @@ These tests fail because test database has no data, which is correct:
 ## 📁 Final Project Structure
 
 ```
-/home/abood/Project/Online_store_project/
+/home/abood/Project/E-commerce_API/
 ├── 📄 README.md                    ← Comprehensive project guide (NEW)
 ├── 📄 REFACTORING_NOTES.md         ← Phase 1 refactoring details
 ├── 📄 IMPLEMENTATION_SUMMARY.md    ← Summary of changes
@@ -219,7 +219,7 @@ These tests fail because test database has no data, which is correct:
 
 ```bash
 # 1. Navigate to project
-cd /home/abood/Project/Online_store_project
+cd /home/abood/Project/E-commerce_API
 
 # 2. Install dependencies (if not done)
 npm install
@@ -514,4 +514,4 @@ Refer to the comprehensive documentation:
 - Results: `API_TEST_REPORT.md`
 - General: `README.md`
 
-All files are in: `/home/abood/Project/Online_store_project/`
+All files are in: `/home/abood/Project/E-commerce_API/`

@@ -1,9 +1,9 @@
-# 🚀 Quick Reference Guide - Online Store API
+# 🚀 Quick Reference Guide - E-commerce_API API
 
 ## ⚡ 30-Second Setup
 
 ```bash
-cd /home/abood/Project/Online_store_project
+cd /home/abood/Project/E-commerce_API
 npm install
 npm start          # Terminal 1
 node API_TESTS.js  # Terminal 2 (new)
@@ -87,7 +87,7 @@ Issues (Not Bugs):
 ```env
 # Required
 PORT=5000
-MONGODB_URI=mongodb://localhost:27017/online_store
+MONGODB_URI=mongodb://localhost:27017/E-commerce_API
 JWT_SECRET=your_secret_key
 JWT_EXPIRE=7d
 
@@ -310,7 +310,7 @@ db.collection.stats()
 
 - **GitHub:** (if applicable)
 - **API Base:** `http://localhost:5000`
-- **MongoDB:** `mongodb://localhost:27017/online_store`
+- **MongoDB:** `mongodb://localhost:27017/E-commerce_API`
 - **Redis:** `redis://localhost:6379` (optional)
 
 ---

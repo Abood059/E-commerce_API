@@ -1,8 +1,8 @@
 # 📚 Documentation Index
 
-## Welcome to the Online Store Backend Project! 👋
+## Welcome to the E-commerce_API Backend Project! 👋
 
-This is a complete, production-ready REST API for an online store with comprehensive documentation and test coverage.
+This is a complete, production-ready REST API for an E-commerce_API with comprehensive documentation and test coverage.
 
 ---
 
@@ -422,7 +422,7 @@ Set `USE_REDIS=true` in `.env` - see [REFACTORING_NOTES.md](REFACTORING_NOTES.md
 ## 📍 Current Directory Structure
 
 ```
-/home/abood/Project/Online_store_project/
+/home/abood/Project/E-commerce_API/
 ├── 📄 Documentation Files (7):
 │   ├── README.md ⭐
 │   ├── QUICK_REFERENCE.md ⭐
@@ -458,7 +458,7 @@ Set `USE_REDIS=true` in `.env` - see [REFACTORING_NOTES.md](REFACTORING_NOTES.md
 
 ## 🎉 Thank You!
 
-The Online Store Backend Project is now complete with:
+The E-commerce_API Backend Project is now complete with:
 - ✅ Full implementation
 - ✅ Comprehensive testing
 - ✅ Complete documentation
