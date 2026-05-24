@@ -1,0 +1,57 @@
+name: API CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test_and_deploy:
+    runs-on: ubuntu-latest
+
+    services:
+      # 1. تشغيل قاعدة بيانات MongoDB وهمية للاختبارات داخل سحابة GitHub
+      mongodb:
+        image: mongo:latest
+        ports:
+          - 27017:27017
+
+    steps:
+      # 2. سحب كود المشروع من مستودع GitHub
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 3. إعداد بيئة تشغيل Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      # 4. تثبيت الحزم والمكتبات البرمجية للمشروع
+      - name: Install dependencies
+        run: npm install
+
+      # 5. تشغيل سيرفر الـ Backend في الخلفية مع حقن متغيرات بيئة وهمية تناسب الفحص
+      - name: Start Express Server
+        run: |
+          npm start &
+        env:
+          PORT: 5000
+          MONGODB_URI: mongodb://localhost:27017/E-commerce_API_test
+          JWT_SECRET: test_secret_key_for_github_actions
+          NODE_ENV: development
+          USE_REDIS: false
+
+      # 6. إعطاء السيرفر 5 ثوانٍ ليستقر ثم تشغيل ملف الفحوصات الشامل للمشروع
+      - name: Run 46 API Tests
+        run: |
+          sleep 5
+          node API_TESTS.js
+
+      # 7. النشر التلقائي على Render (في حال نجاح خطوة الاختبارات فقط)
+      - name: Deploy to Render
+        if: success() && github.event_name == 'push'
+        run: |
+          curl -X POST "${{ secrets.RENDER_DEPLOY_HOOK }}"
